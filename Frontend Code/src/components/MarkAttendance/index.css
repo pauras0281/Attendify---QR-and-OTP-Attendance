@@ -1,0 +1,63 @@
+/* Attendance marking */
+.attendanceMark{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    top: 10%;
+    justify-content: center;
+}
+
+.attendanceCard{
+    height: 500px;
+    width: 500px; 
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(31, 73, 70, 0.7);
+    border-radius: 4%;
+    margin: 20px;
+    
+}
+.attendanceCard img{
+    width: 250px;
+    height: 250px;
+    /* margin-top: -50px; */
+}
+.atmheader{
+    position: relative;
+    top: 10%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.card1{
+    flex-basis: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.card2{
+    flex-basis: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.attendanceCard h1{
+    font-size: 8rem;
+}
+.attendanceCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#otpimage{
+    font-size: 9vw;
+    margin: 0;
+    padding: 0;
+
+}

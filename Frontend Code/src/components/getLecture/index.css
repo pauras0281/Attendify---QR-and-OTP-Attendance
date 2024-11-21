@@ -1,0 +1,52 @@
+/* LectureDetails.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .qr-code img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .otp {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  

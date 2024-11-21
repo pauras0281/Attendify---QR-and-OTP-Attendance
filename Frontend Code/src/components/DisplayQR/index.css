@@ -1,0 +1,18 @@
+.portal-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(22, 21, 21, 0.9);
+}
+
+.portal-wrapper .container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    padding: 20px 30px;
+    background-color: #fff;
+}

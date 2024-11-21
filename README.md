@@ -5,6 +5,9 @@ This is my attendance system project where the students can mark their attendanc
 Overview
 Attendify is a web application built using the MERN stack (MongoDB, Express.js, React, Node.js) that allows users to manage and track attendance through modern methods like QR code scanning and OTP verification. The application is designed for both students and administrators, providing different dashboards and features for each user role.
 
+Project Run : Just download all files then npm install in both frontend and backend
+Use sample login ids : id: student@gmail.com  pass: 111111,      id: teacher@gmail.com  pass: 111111   as signup functionality has been misfunctioning and is currently being debugged. 
+
 Features
 •	User Authentication:
 o	Sign up and login functionality for students and administrators.
